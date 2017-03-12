@@ -66,3 +66,10 @@ Hello, TensorFlow!
 * [TensorFlow MOOC on Udacity](https://www.udacity.com/course/deep-learning--ud730)
 
 The TensorFlow community has created amazing things with TensorFlow, please see the [resources section of tensorflow.org](https://www.tensorflow.org/versions/master/resources#community) for an incomplete list.
+
+## Notes for compiling from sources in Ubuntu 16.04.1LTS
+* Version used: git tag v1.0.1
+* bazel 0.4.3 tarball
+     - bazel 0.4.0 tarball needed first to bootstrap 0.4.3
+     - bazel 0.4.4 was avoided because they report regression
+   
